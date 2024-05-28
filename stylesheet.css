@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Calistoga&family=League+Spartan:wght@100..900&family=Ramaraja&display=swap');
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #181818;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #ffffff;
+}
+
+header {
+    background-color: #bb5272;
+    color: rgb(255, 255, 255);
+    padding: 1em 0;
+    text-align: center;
+    font-family: "League Spartan", serif;
+}  
+
+body.dark-mode header {
+    background-color: #5c2837;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #883a51;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+.dark-mode nav ul li a {
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    background: #be6e89;
+}
+
+body.dark-mode nav ul li a:hover {
+    background: #dd668a;
+}
+
+body.dark-mode nav ul li {
+    background: #b34b6a;
+}
+
+#theme-toggle {
+    background: rgb(100, 47, 56);
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-family: "League Spartan";
+}
+
+#theme-toggle:hover {
+    background: rgb(71, 34, 40);
+}
+
+body.dark-mode #theme-toggle {
+    background: #913e58;
+}
+
+body.dark-mode #theme-toggle:hover {
+    background: #ee6490;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+    font-family: "League Spartan";
+    text-align: justify;
+}
+
+h2 {
+    border-bottom: 2px solid #c72757;
+    padding-bottom: 0.5em;
+}
+
+body.dark-mode h2 {
+    border-bottom: 2px solid #791331;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e684a1;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    color: #000000;
+}
+
+body.dark-mode ul li {
+    background: #662d3f;
+    color: white;
+}
+
+.projeto {
+    background: #ffe2e2;
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid #ff387b;
+    color:#181818
+}
+
+.projeto a {
+    color: rgb(156, 92, 156);
+}
+
+.projeto a:active {
+    color: rgb(58, 0, 58);
+}
+
+body.dark-mode .projeto {
+    background: #47343a;
+    border: 1px solid #b45372;
+    color: white;
+}
+
+/*---------contato---------*/
+
+input:focus {
+    border: 2px solid #702e44;
+    outline: none;
+}
+
+.dark-mode input:focus {
+    border: 2px solid #31141e;
+    outline: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 0.5em 0 0.2em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-bottom: 0em;
+    border: 2px solid #c54e75;
+    font-family: "League Spartan";
+}
+
+
+body.dark-mode form input, body.dark-mode form textarea {
+    background: #333;
+    margin-bottom: 0em;
+    color: #ffffff;
+    border: 2px solid #6e0e2e;
+    font-family: "League Spartan";
+}
+
+form button {
+    padding: 0.7em;
+    border: none;
+    background: #c54e75;
+    color: white;
+    cursor: pointer;
+    font-family: "League Spartan";
+}
+
+form button:hover {
+    background: #dd6f93;
+}
+
+body.dark-mode form button {
+    background: #6e0e2e;
+}
+
+body.dark-mode form button:hover {
+    background: #9b1441;
+}
+
+footer {
+    background-color: #5c5b5b;
+    color: white;
+    text-align: center;
+    padding: 0em 0;
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    bottom: 0;
+    font-family: "League Spartan";
+}
+
